@@ -1,4 +1,4 @@
-This is an API for sending sms through the way2sms(http://www.way2sms.com) service.Way2SMS has no official API for their service as yet and going to their website, logging in , clicking on links and sending a message (not to forget closing those annoying pop-up ads) was too much of work for me ;).So,i decided to automate the process,hence this API.You can use it as follows:
+This is an API for sending sms through the way2sms(http://www.way2sms.com) service.Way2SMS has no official API for their service as yet and going to their website, logging in , clicking on links and sending a message (not to forget closing those annoying pop-up ads !) was too much of work for me ;).So,i decided to automate the process,hence this API.You can use it as follows:
 
 from Way2SMS import sms
 s = sms.Way2SMS('<your_mobile_number>','<your_way2sms_password>')
