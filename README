@@ -2,6 +2,6 @@ This is an API for sending sms through the way2sms(http://www.way2sms.com) servi
 
 from Way2SMS import sms
 s = sms.Way2SMS('<your_mobile_number>','<your_way2sms_password>')
-s.send('<receipient_number>','<message>')
+s.sendSMS('<receipient_number>','<message>')
 
 Thats it !.Hope you find this useful.You may also use it in your own programs, web apps etc.You can send me your feedback,bug reports and submit patches by sending me an email at raza.sayed@gmail.com. Have fun ! :)
