@@ -5,3 +5,5 @@ s = sms.Way2SMS('<your_mobile_number>','<your_way2sms_password>')
 s.sendSMS('<receipient_number>','<message>')
 
 Thats it !.Hope you find this useful.You may also use it in your own programs, web apps etc.You can send me your feedback,bug reports and submit patches by sending me an email at raza.sayed@gmail.com. Have fun ! :)
+
+You can also see a demo of the api in action at http://way-2-sms.appspot.com
